@@ -1,0 +1,8 @@
+/*abstracts*/
+@use'./scss/abstracts/variables.scss';
+/*base*/
+@use'./scss/base/base.scss';
+
+#root{
+    background-color: var(--ml-white);
+}

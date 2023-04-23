@@ -1,0 +1,42 @@
+html, body{
+    font-family: var(--ml-fonts);
+}
+.ml-logo {
+    background: var(--ml-logo387-338);
+    min-width: 387px;
+    min-height: 338px;
+}
+.ml-blue{
+    color:var(--ml-blue);
+}
+.pointer{
+    cursor: pointer;
+}
+.pointer:hover{
+    font-size: 1.1rem;
+}
+a:link {
+    text-decoration: none;
+}
+.ml-logoSearch{
+    height: 40px;
+}
+.fa-magnifying-glass{
+    height: 20px;
+}
+input[type="search"]:focus{
+    background-color: transparent;
+    box-shadow: none;
+}
+.btn.btn-primary{
+    background-color: var(--ml-blue);
+}
+.search{
+    background-color: var(--ml-background);
+}
+.description{
+    text-align: justify;
+}
+.img-thumbnail{
+    max-height: 40px;;
+}
